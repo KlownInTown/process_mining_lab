@@ -1,0 +1,3 @@
+method,mae_sec,mae_days,description
+Statistical (Prefix-Based),544470.82,6.3017,Среднее оставшееся время по историческим кейсам с идентичным префиксом
+Machine Learning (Random Forest),601411.69,6.9608,"Случайный лес на признаках префикса (длина, энтропия, elapsed time)"

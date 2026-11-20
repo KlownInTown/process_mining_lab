@@ -1,0 +1,9 @@
+metric,value
+case_count,13087.0
+mean_duration_sec,744196.5568239475
+median_duration_sec,69857.434
+max_duration_sec,7901736.161
+mean_duration_days,8.613386074351244
+median_duration_days,0.8085351157407407
+max_duration_days,91.4552796412037
+mean_events_per_case,20.034232444410485

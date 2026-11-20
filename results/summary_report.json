@@ -1,0 +1,67 @@
+{
+  "report_type": "Process Mining Analysis Report",
+  "tables_generated": [
+    "activity_durations",
+    "bottlenecks",
+    "bottlenecks_top20",
+    "cycle_patterns",
+    "events_all",
+    "long_cases",
+    "long_cases_by_variant",
+    "long_cases_rework",
+    "long_cases_summary",
+    "predictions",
+    "predictions_summary",
+    "rework_activities",
+    "rework_summary",
+    "transition_times",
+    "variants",
+    "variant_long_analysis",
+    "whatif_scenarios"
+  ],
+  "json_generated": [
+    "data_quality",
+    "model_quality",
+    "model_stats"
+  ],
+  "key_metrics": {
+    "data_quality": {
+      "raw_events": 262200,
+      "raw_cases": 13087,
+      "clean_events": 262188,
+      "clean_cases": 13087,
+      "dropped_na": 0,
+      "dropped_duplicates": 0,
+      "dropped_inversion_cases": 0,
+      "dropped_rare_events": 12,
+      "dropped_short_cases": 0,
+      "activities_count": 23,
+      "date_range": {
+        "start": "2011-09-30T22:38:44.546000+00:00",
+        "end": "2012-03-14T15:04:54.681000+00:00"
+      }
+    },
+    "conformance": {
+      "fitness": 0.9724,
+      "precision": 0.1351
+    },
+    "performance": {
+      "case_count": 13087.0,
+      "mean_duration_sec": 744196.5568239475,
+      "median_duration_sec": 69857.434,
+      "max_duration_sec": 7901736.161,
+      "mean_duration_days": 8.613386074351244,
+      "median_duration_days": 0.8085351157407407,
+      "max_duration_days": 91.4552796412037,
+      "mean_events_per_case": 20.034232444410485
+    },
+    "rework": {
+      "total_cases": 13087.0,
+      "total_variants": 4366.0,
+      "cases_with_rework": 9658.0,
+      "rework_rate_pct": 73.8,
+      "most_frequent_variant_cases": 3429.0,
+      "most_frequent_variant_share_pct": 26.2
+    }
+  }
+}

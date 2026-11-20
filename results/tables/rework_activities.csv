@@ -1,0 +1,12 @@
+concept:name,cases_with_rework,total_rework_events
+W_Completeren aanvraag,7367,47483
+W_Nabellen offertes,5011,47001
+W_Nabellen incomplete dossiers,1647,23543
+W_Valideren aanvraag,3210,17555
+W_Afhandelen leads,4755,11811
+O_CREATED,1438,2015
+O_SELECTED,1438,2015
+O_SENT,1438,2015
+O_CANCELLED,749,995
+W_Beoordelen fraude,108,556
+O_SENT_BACK,197,200

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Результаты (опционально — если хотите исключить из git)
+# results/
+# *.png
+# *.dot
+
+# Данные (большие файлы)
+*.xes
+!data/financial_log.xes

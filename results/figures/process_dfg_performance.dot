@@ -1,0 +1,19 @@
+digraph G { rankdir=TB; nodesep=0.35; ranksep=0.5; bgcolor="white";
+node [shape=box, style="rounded,filled", fontname="Arial", fontsize=12, margin="0.12,0.06"];
+edge [fontname="Arial", fontsize=11, arrowsize=0.75];
+start [label="", shape=circle, width=0.25, style=filled, fillcolor="#2e7d32"];
+finish [label="", shape=doublecircle, width=0.2, style=filled, fillcolor="#c62828"];
+n0 [label="Проверка\nдокументов\n(7)", fillcolor="#8c8cff"];
+n1 [label="Создание заявки\n(5)", fillcolor="#a7a7ff"];
+n2 [label="Одобрение\n(4)", fillcolor="#b4b4ff"];
+n3 [label="Доработка\n(3)", fillcolor="#c2c2ff"];
+n4 [label="Отказ\n(1)", fillcolor="#ddddff"];
+start -> n1 [label=" 5", color="#2e7d32"];
+n2 -> finish [label=" 4", color="#c62828"];
+n4 -> finish [label=" 1", color="#c62828"];
+n3 -> n0 [label=" 18,7 ч", penwidth=4.49, color="#f9a825", fontcolor="#f9a825"];
+n0 -> n3 [label=" 4,7 ч", penwidth=4.49, color="#f9a825", fontcolor="#f9a825"];
+n0 -> n2 [label=" 2,4 ч", penwidth=5.20, color="#2e7d32", fontcolor="#2e7d32"];
+n1 -> n4 [label=" 45 мин", penwidth=2.66, color="#2e7d32", fontcolor="#2e7d32"];
+n1 -> n0 [label=" 1,4 ч", penwidth=5.20, color="#2e7d32", fontcolor="#2e7d32"];
+}

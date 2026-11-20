@@ -1,0 +1,26 @@
+activity_a,activity_b,cycle_count
+W_Completeren aanvraag,W_Completeren aanvraag,31474
+W_Nabellen offertes,W_Nabellen offertes,30913
+W_Nabellen incomplete dossiers,W_Nabellen incomplete dossiers,16428
+W_Nabellen offertes,W_Completeren aanvraag,5010
+W_Valideren aanvraag,W_Valideren aanvraag,4149
+W_Nabellen incomplete dossiers,W_Valideren aanvraag,4037
+W_Valideren aanvraag,W_Nabellen incomplete dossiers,3851
+W_Valideren aanvraag,W_Nabellen offertes,3208
+W_Completeren aanvraag,W_Afhandelen leads,2515
+W_Afhandelen leads,W_Afhandelen leads,2243
+W_Afhandelen leads,A_DECLINED,2234
+W_Completeren aanvraag,A_DECLINED,1088
+W_Completeren aanvraag,A_CANCELLED,704
+W_Beoordelen fraude,W_Beoordelen fraude,275
+W_Valideren aanvraag,W_Beoordelen fraude,83
+W_Completeren aanvraag,A_ACCEPTED,74
+W_Beoordelen fraude,W_Afhandelen leads,63
+W_Afhandelen leads,W_Beoordelen fraude,61
+W_Beoordelen fraude,W_Valideren aanvraag,60
+W_Beoordelen fraude,A_DECLINED,57
+W_Nabellen offertes,A_CANCELLED,6
+W_Completeren aanvraag,W_Beoordelen fraude,4
+W_Beoordelen fraude,W_Completeren aanvraag,4
+W_Nabellen offertes,O_CANCELLED,3
+W_Afhandelen leads,W_Completeren aanvraag,2

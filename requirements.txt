@@ -1,0 +1,21 @@
+# Process Mining Lab — Dependencies
+# Установка: pip install -r requirements.txt
+
+# Ядро анализа процессов
+pm4py==2.7.11
+
+# Работа с данными
+pandas==2.1.4
+numpy==1.26.3
+
+# Визуализация
+matplotlib==3.8.2
+seaborn==0.13.1
+graphviz==0.20.1
+
+# Статистика
+scipy==1.11.4
+
+# Прочее
+python-dateutil==2.8.2
+pytz==2024.1

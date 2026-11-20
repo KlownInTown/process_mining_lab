@@ -1,0 +1,8 @@
+metric,value
+total_cases,13087
+long_cases_count,330
+long_cases_threshold_days,35.48
+long_cases_share_pct,2.52
+mean_normal_duration_days,7.61
+mean_long_duration_days,47.41
+top_variant_long_cases,A_SUBMITTED → A_PARTLYSUBMITTED → A_PREACCEPTED → W_Completeren aanvraag → W_Completeren aanvraag → W_Completeren aanvraag → W_Completeren aanvraag → A_ACCEPTED → A_FINALIZED → O_SELECTED → O_CREATED → O_SENT → W_Nabellen offertes → W_Completeren aanvraag → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → O_CANCELLED → O_SELECTED → O_CREATED → O_SENT → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → W_Nabellen offertes → O_CANCELLED → A_CANCELLED → W_Nabellen offertes

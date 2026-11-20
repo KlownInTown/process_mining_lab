@@ -1,0 +1,23 @@
+{
+  "algorithm": "Inductive Miner",
+  "model_type": "Petri net (WF-net)",
+  "places": 51,
+  "transitions": 73,
+  "arcs": 164,
+  "dfg_edges": 119,
+  "start_activities": {
+    "A_SUBMITTED": 13087
+  },
+  "end_activities": {
+    "W_Valideren aanvraag": 2750,
+    "A_DECLINED": 3429,
+    "W_Completeren aanvraag": 1939,
+    "A_CANCELLED": 655,
+    "W_Nabellen incomplete dossiers": 453,
+    "W_Afhandelen leads": 2234,
+    "W_Nabellen offertes": 1290,
+    "W_Beoordelen fraude": 57,
+    "O_CANCELLED": 279,
+    "A_REGISTERED": 1
+  }
+}
